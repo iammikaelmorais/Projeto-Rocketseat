@@ -95,11 +95,13 @@ margin: 4px auto;
     left: 0;
     transform: translateY(-50%);
     top: 50%;
+
+    animation: slide-back .2s;
 }
 
 .light #switch button{
-    right: 0;
-    left: initial;
+    animation: slide-in 0.4s forwards ;
+
 
 }
 
@@ -116,6 +118,11 @@ backdrop-filter: blur(4px);
 
 border-radius: 9999px;
 
+
+}
+
+#switch button:hover {
+outline: 8px solid var(--highlight-color);
 
 }
 
@@ -198,5 +205,26 @@ footer{
 
     .light {
     --bg-url: url(./assets/bg-mobile/Background-light.jpg.jpg);
+    }
+}
+
+/* animation*/
+
+@keyframes slide-in {
+from{
+left: 0;
+}
+to{
+left: 50%;
+}
+}
+
+@keyframes slide-back {
+    from{
+        left:50%;
+    }
+
+    to{
+        left:0;
     }
 }
