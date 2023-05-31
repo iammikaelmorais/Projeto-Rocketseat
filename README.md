@@ -49,4 +49,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
- Feito com ❤ pelo futuro dev Mikael Morais :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+ Feito com ❤ pelo futuro dev Mikael Morais
