@@ -8,12 +8,12 @@ function toggleMode() {
 
   // substituir a imagem
     if (html.classList.contains('light')) {
-    // se tiver o light mode ativado, use a imagem avatar2
-    img.setAttribute('src', './imagens/Avatar-2.png')
+    // se tiver o light mode ativado, use a imagem avatar-light
+    img.setAttribute('src', './imagens/avatar-light.png')
   
    } else{
-        //se não tiver o light mode ativado, use a imagem avatar
-        img.setAttribute('src' , 'imagens/Avatar-1.png')
+        //se não tiver o light mode ativado, use a imagem avatar-dark
+        img.setAttribute('src' , 'imagens/avatar-dark.png')
     }
 
  
